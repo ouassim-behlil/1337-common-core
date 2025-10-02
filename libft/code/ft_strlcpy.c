@@ -13,11 +13,11 @@ static size_t	ft_strlen(const char *s)
 size_t	ft_strlcpy(char *dest, const char *src, size_t dsize)
 {
 	size_t	i;
-	size_t	sLen;
+	size_t	slength;
 
-	sLen = ft_strlen(src);
+	slength = ft_strlen(src);
 	if (dsize == 0)
-		return (sLen);
+		return (slength);
 	i = 0;
 	while (i < dsize - 1 && src[i])
 	{
@@ -25,5 +25,5 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t dsize)
 		i++;
 	}
 	dest[i] = '\0';
-	return (sLen);
+	return (slength);
 }
