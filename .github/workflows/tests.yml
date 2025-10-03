@@ -3,7 +3,11 @@ name: Tests
 on:
   push:
     branches: ['**']
+    paths:
+      - 'libft/tests/**'
   pull_request:
+    paths:
+      - 'libft/tests/**'
 
 jobs:
   test:
