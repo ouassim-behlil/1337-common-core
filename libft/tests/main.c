@@ -17,6 +17,8 @@ void    run_ft_strlen_tests(void);
 void    run_ft_strncmp_tests(void);
 void    run_ft_strnstr_tests(void);
 void    run_ft_strrchr_tests(void);
+void    run_ft_split_tests(void);
+void    run_ft_itoa_tests(void);
 
 int main(void)
 {
@@ -37,6 +39,8 @@ int main(void)
     run_ft_strncmp_tests();
     run_ft_strnstr_tests();
     run_ft_strrchr_tests();
+    run_ft_split_tests();
+    run_ft_itoa_tests();
     puts("All tests completed successfully.");
     return (0);
 }
