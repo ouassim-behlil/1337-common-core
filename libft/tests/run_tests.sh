@@ -29,6 +29,9 @@ OUTPUT="$SCRIPT_DIR/tests_runner"
     "$SCRIPT_DIR/test_ft_strrchr.c" \
     "$SCRIPT_DIR/test_ft_split.c" \
     "$SCRIPT_DIR/test_ft_itoa.c" \
+    "$SCRIPT_DIR/test_ft_putstr_fd.c" \
+    "$SCRIPT_DIR/test_ft_putendl_fd.c" \
+    "$SCRIPT_DIR/test_ft_putnbr_fd.c" \
     "$SCRIPT_DIR/shim_ft_memset.c" \
     "$PROJECT_DIR/code/ft_atoi.c" \
     "$PROJECT_DIR/code/ft_bzero.c" \
@@ -45,6 +48,9 @@ OUTPUT="$SCRIPT_DIR/tests_runner"
     "$PROJECT_DIR/code/ft_strchr.c" \
     "$PROJECT_DIR/code/ft_split.c" \
     "$PROJECT_DIR/code/ft_itoa.c" \
+    "$PROJECT_DIR/code/ft_putstr_fd.c" \
+    "$PROJECT_DIR/code/ft_putendl_fd.c" \
+    "$PROJECT_DIR/code/ft_putnbr_fd.c" \
     "$PROJECT_DIR/code/ft_strlcat.c" \
     "$PROJECT_DIR/code/ft_strlcpy.c" \
     "$PROJECT_DIR/code/ft_strlen.c" \

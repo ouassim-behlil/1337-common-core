@@ -19,6 +19,9 @@ void    run_ft_strnstr_tests(void);
 void    run_ft_strrchr_tests(void);
 void    run_ft_split_tests(void);
 void    run_ft_itoa_tests(void);
+void    run_ft_putstr_fd_tests(void);
+void    run_ft_putendl_fd_tests(void);
+void    run_ft_putnbr_fd_tests(void);
 
 int main(void)
 {
@@ -41,6 +44,9 @@ int main(void)
     run_ft_strrchr_tests();
     run_ft_split_tests();
     run_ft_itoa_tests();
+    run_ft_putstr_fd_tests();
+    run_ft_putendl_fd_tests();
+    run_ft_putnbr_fd_tests();
     puts("All tests completed successfully.");
     return (0);
 }
