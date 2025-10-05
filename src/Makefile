@@ -58,7 +58,7 @@ $(NAME): $(OBJECT_FILES)
 		$(AR) rcs $(NAME) $(OBJECT_FILES)
 
 %.o: %.c
-	@$(CC) $(C_FLAGS) -c $< -o $@
+	$(CC) $(C_FLAGS) -c $< -o $@
 
 clean:
 		$(RM) -f $(OBJECT_FILES) $(BONUS_OBJECT_FILES)

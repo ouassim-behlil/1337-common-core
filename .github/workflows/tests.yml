@@ -4,10 +4,10 @@ on:
   push:
     branches: ['**']
     paths:
-      - 'libft/tests/**'
+      - 'tests/**'
   pull_request:
     paths:
-      - 'libft/tests/**'
+      - 'tests/**'
 
 jobs:
   test:
@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run unit tests
-        run: ./libft/tests/run_tests.sh
+        run: ./tests/run_tests.sh
