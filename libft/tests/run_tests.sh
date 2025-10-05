@@ -46,7 +46,7 @@ OUTPUT="$SCRIPT_DIR/tests_runner"
     "$PROJECT_DIR/src/ft_memchr.c" \
     "$PROJECT_DIR/src/ft_memcmp.c" \
     "$PROJECT_DIR/src/ft_memcpy.c" \
-    "$PROJECT_DIR/src/ft_memove.c" \
+    "$PROJECT_DIR/src/ft_memmove.c" \
     "$PROJECT_DIR/src/ft_strchr.c" \
     "$PROJECT_DIR/src/ft_split.c" \
     "$PROJECT_DIR/src/ft_itoa.c" \
