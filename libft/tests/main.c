@@ -22,6 +22,7 @@ void    run_ft_itoa_tests(void);
 void    run_ft_putstr_fd_tests(void);
 void    run_ft_putendl_fd_tests(void);
 void    run_ft_putnbr_fd_tests(void);
+void    run_ft_lst_tests(void);
 
 int main(void)
 {
@@ -47,6 +48,7 @@ int main(void)
     run_ft_putstr_fd_tests();
     run_ft_putendl_fd_tests();
     run_ft_putnbr_fd_tests();
+    run_ft_lst_tests();
     puts("All tests completed successfully.");
     return (0);
 }

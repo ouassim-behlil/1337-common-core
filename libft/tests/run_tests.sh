@@ -9,6 +9,7 @@ PROJECT_DIR=$(cd -- "$SCRIPT_DIR/.." && pwd)
 OUTPUT="$SCRIPT_DIR/tests_runner"
 
 "$CC" $CFLAGS \
+    -I "$PROJECT_DIR/code" \
     "$SCRIPT_DIR/main.c" \
     "$SCRIPT_DIR/test_ft_bzero.c" \
     "$SCRIPT_DIR/test_ft_atoi.c" \
@@ -32,6 +33,7 @@ OUTPUT="$SCRIPT_DIR/tests_runner"
     "$SCRIPT_DIR/test_ft_putstr_fd.c" \
     "$SCRIPT_DIR/test_ft_putendl_fd.c" \
     "$SCRIPT_DIR/test_ft_putnbr_fd.c" \
+    "$SCRIPT_DIR/test_ft_lst.c" \
     "$SCRIPT_DIR/shim_ft_memset.c" \
     "$PROJECT_DIR/code/ft_atoi.c" \
     "$PROJECT_DIR/code/ft_bzero.c" \
@@ -48,9 +50,19 @@ OUTPUT="$SCRIPT_DIR/tests_runner"
     "$PROJECT_DIR/code/ft_strchr.c" \
     "$PROJECT_DIR/code/ft_split.c" \
     "$PROJECT_DIR/code/ft_itoa.c" \
+    "$PROJECT_DIR/code/ft_putchar_fd.c" \
     "$PROJECT_DIR/code/ft_putstr_fd.c" \
     "$PROJECT_DIR/code/ft_putendl_fd.c" \
     "$PROJECT_DIR/code/ft_putnbr_fd.c" \
+    "$PROJECT_DIR/code/ft_lstadd_back_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstadd_front_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstclear_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstdelone_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstiter_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstlast_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstmap_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstnew_bonus.c" \
+    "$PROJECT_DIR/code/ft_lstsize_bonus.c" \
     "$PROJECT_DIR/code/ft_strlcat.c" \
     "$PROJECT_DIR/code/ft_strlcpy.c" \
     "$PROJECT_DIR/code/ft_strlen.c" \
