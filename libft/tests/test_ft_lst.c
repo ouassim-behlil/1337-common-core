@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../code/libft.h"
+#include "../src/libft.h"
 
 static int  g_del_call_count;
 

@@ -9,7 +9,7 @@ PROJECT_DIR=$(cd -- "$SCRIPT_DIR/.." && pwd)
 OUTPUT="$SCRIPT_DIR/tests_runner"
 
 "$CC" $CFLAGS \
-    -I "$PROJECT_DIR/code" \
+    -I "$PROJECT_DIR/src" \
     "$SCRIPT_DIR/main.c" \
     "$SCRIPT_DIR/test_ft_bzero.c" \
     "$SCRIPT_DIR/test_ft_atoi.c" \
@@ -35,42 +35,42 @@ OUTPUT="$SCRIPT_DIR/tests_runner"
     "$SCRIPT_DIR/test_ft_putnbr_fd.c" \
     "$SCRIPT_DIR/test_ft_lst.c" \
     "$SCRIPT_DIR/shim_ft_memset.c" \
-    "$PROJECT_DIR/code/ft_atoi.c" \
-    "$PROJECT_DIR/code/ft_bzero.c" \
-    "$PROJECT_DIR/code/ft_calloc.c" \
-    "$PROJECT_DIR/code/ft_isalnum.c" \
-    "$PROJECT_DIR/code/ft_isalpha.c" \
-    "$PROJECT_DIR/code/ft_isascii.c" \
-    "$PROJECT_DIR/code/ft_isdigit.c" \
-    "$PROJECT_DIR/code/ft_isprint.c" \
-    "$PROJECT_DIR/code/ft_memchr.c" \
-    "$PROJECT_DIR/code/ft_memcmp.c" \
-    "$PROJECT_DIR/code/ft_memcpy.c" \
-    "$PROJECT_DIR/code/ft_memove.c" \
-    "$PROJECT_DIR/code/ft_strchr.c" \
-    "$PROJECT_DIR/code/ft_split.c" \
-    "$PROJECT_DIR/code/ft_itoa.c" \
-    "$PROJECT_DIR/code/ft_putchar_fd.c" \
-    "$PROJECT_DIR/code/ft_putstr_fd.c" \
-    "$PROJECT_DIR/code/ft_putendl_fd.c" \
-    "$PROJECT_DIR/code/ft_putnbr_fd.c" \
-    "$PROJECT_DIR/code/ft_lstadd_back_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstadd_front_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstclear_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstdelone_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstiter_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstlast_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstmap_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstnew_bonus.c" \
-    "$PROJECT_DIR/code/ft_lstsize_bonus.c" \
-    "$PROJECT_DIR/code/ft_strlcat.c" \
-    "$PROJECT_DIR/code/ft_strlcpy.c" \
-    "$PROJECT_DIR/code/ft_strlen.c" \
-    "$PROJECT_DIR/code/ft_strncmp.c" \
-    "$PROJECT_DIR/code/ft_strnstr.c" \
-    "$PROJECT_DIR/code/ft_strrchr.c" \
-    "$PROJECT_DIR/code/ft_tolower.c" \
-    "$PROJECT_DIR/code/ft_toupper.c" \
+    "$PROJECT_DIR/src/ft_atoi.c" \
+    "$PROJECT_DIR/src/ft_bzero.c" \
+    "$PROJECT_DIR/src/ft_calloc.c" \
+    "$PROJECT_DIR/src/ft_isalnum.c" \
+    "$PROJECT_DIR/src/ft_isalpha.c" \
+    "$PROJECT_DIR/src/ft_isascii.c" \
+    "$PROJECT_DIR/src/ft_isdigit.c" \
+    "$PROJECT_DIR/src/ft_isprint.c" \
+    "$PROJECT_DIR/src/ft_memchr.c" \
+    "$PROJECT_DIR/src/ft_memcmp.c" \
+    "$PROJECT_DIR/src/ft_memcpy.c" \
+    "$PROJECT_DIR/src/ft_memove.c" \
+    "$PROJECT_DIR/src/ft_strchr.c" \
+    "$PROJECT_DIR/src/ft_split.c" \
+    "$PROJECT_DIR/src/ft_itoa.c" \
+    "$PROJECT_DIR/src/ft_putchar_fd.c" \
+    "$PROJECT_DIR/src/ft_putstr_fd.c" \
+    "$PROJECT_DIR/src/ft_putendl_fd.c" \
+    "$PROJECT_DIR/src/ft_putnbr_fd.c" \
+    "$PROJECT_DIR/src/ft_lstadd_back_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstadd_front_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstclear_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstdelone_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstiter_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstlast_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstmap_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstnew_bonus.c" \
+    "$PROJECT_DIR/src/ft_lstsize_bonus.c" \
+    "$PROJECT_DIR/src/ft_strlcat.c" \
+    "$PROJECT_DIR/src/ft_strlcpy.c" \
+    "$PROJECT_DIR/src/ft_strlen.c" \
+    "$PROJECT_DIR/src/ft_strncmp.c" \
+    "$PROJECT_DIR/src/ft_strnstr.c" \
+    "$PROJECT_DIR/src/ft_strrchr.c" \
+    "$PROJECT_DIR/src/ft_tolower.c" \
+    "$PROJECT_DIR/src/ft_toupper.c" \
     -o "$OUTPUT"
 
 "$OUTPUT"
